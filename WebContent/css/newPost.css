@@ -1,0 +1,40 @@
+body {
+	background-color: #A4C6FF;
+}
+
+.errorMessages {
+    color:red;
+}
+
+.main-contents {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+	margin-right: 20px;
+	background-color: #A4C6FF;
+	height: 370%;
+	width: 600px;
+}
+
+.header {
+	text-align: center;
+	background-color: #A4C6FF;
+}
+
+.form-area {
+	margin-top: 00px;
+	margin-right: 10px;
+	margin-bottom: 00px;
+	margin-left: 10px;
+	text-align: left;
+	background-color: white;
+}
+.form-area {
+padding: 1em 4em;
+margin: 3em 0;
+border: double 5px #800000;
+}
+.form-area p {
+margin: 0;
+padding: 0;
+}

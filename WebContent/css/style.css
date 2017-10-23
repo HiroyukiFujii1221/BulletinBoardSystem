@@ -1,0 +1,102 @@
+body {
+	background-color: #A4C6FF;
+}
+
+.errorMessages {
+    color:red;
+}
+.noMessages {
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	color: red;
+}
+.main-contents {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+	margin-right: 29px;
+	background-color: #A4C6FF;
+	height: 400%;
+	width: 600px;
+}
+.header {
+	text-align: center;
+	background-color: #A4C6FF;
+}
+
+.form-area {
+	margin-top: 00px;
+	margin-right: 10px;
+	margin-bottom: 00px;
+	margin-left: 10px;
+	text-align: left;
+	background-color: white;
+}
+.form-area {
+padding: 0.5em 1em;
+margin: 3em 0;
+border: double 5px #A52A2A;
+}
+.form-area p {
+margin: 0;
+padding: 0;
+}
+.timeline {
+	width: 650px;
+	height: 56px;
+}
+.post{
+	padding: 0.5em 1em;
+	margin: 2em 0;
+	font-weight: light;
+	border: solid 3px #A52A2A;
+	text-align: left;
+	background-color: white;
+	word-wrap:break-word;
+}
+.post p {
+margin: 0;
+padding: 0;
+}
+.post .title{
+	text-align: left;
+}
+.post .name{
+	text-align: right;
+}
+.post .date{
+	text-align: right;
+}
+.comment {
+width: 450px;
+padding: 0.5em 1em;
+margin: 2em 3em;
+font-weight: light;
+color: black;/*文字色*/ background: #FFF;
+border: solid 3px #A52A2A;/*線*/ border-radius: 10px;/*角の丸み*/
+text-align: left;
+word-wrap:break-word;
+}
+.comment p {
+margin: 0.5em 1em;
+padding: 0.5em 1em;
+}
+.comment .name{
+	text-align: right;
+}
+.comment .date{
+	text-align: right;
+.input#submit_button {
+display: inline-block;
+padding: 0.5em 1em;
+text-decoration: none;
+background: #668ad8;/*ボタン色*/ color: #FFF;
+border-bottom: solid 4px #627295;
+border-radius: 3px;
+}
+.input#submit_button:active {/*ボタンを押したとき*/ -ms-transform: translateY(4px);
+-webkit-transform: translateY(4px);
+transform: translateY(4px);/*下に動く*/ box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);/*影を小さく*/ border-bottom: none;
+}
